@@ -33,14 +33,14 @@
     "ctaPrimary": "Request Consultation",
     "ctaSecondary": "Our Landmark Projects",
     "stats": {
-      "projects": "150+",
-      "projectsLabel": "Projects Delivered",
-      "experience": "15+",
-      "experienceLabel": "Years Engineering Experience",
+      "projects": "700+",
+      "projectsLabel": "Approved Projects",
+      "experience": "10+",
+      "experienceLabel": "Years of Experience",
       "approvals": "100%",
-      "approvalsLabel": "Civil Defense Compliance",
-      "specialists": "30+",
-      "specialistsLabel": "Certified FLS Engineers"
+      "approvalsLabel": "Licensing Approval Rate",
+      "specialists": "20",
+      "specialistsLabel": "Certified Consultant Engineers"
     },
     "servicesSectionTitle": "Comprehensive Engineering Solutions",
     "servicesSectionSubtitle": "From preliminary architectural code review to testing, commissioning, and final licensing, we ensure total compliance and life safety excellence.",
