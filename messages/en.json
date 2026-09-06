@@ -1,0 +1,285 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "team": "Leadership & Team",
+    "clients": "Clients",
+    "contact": "Contact Us",
+    "requestConsultation": "Request Consultation",
+    "switchLanguage": "العربية"
+  },
+  "Common": {
+    "companyName": "Modern Building For Consultancy Engineering",
+    "companyShort": "MBCE",
+    "tagline": "Premier Fire & Life Safety and Engineering Consultancy in Saudi Arabia",
+    "headquarters": "Riyadh, Kingdom of Saudi Arabia",
+    "phone": "+966 565992687",
+    "email": "info@modernbuildingceo.com.sa",
+    "directorEmail": "mmaayah@modernbuildingceo.com.sa",
+    "viewProject": "View Project Details",
+    "viewAllProjects": "Explore Landmark Projects",
+    "allServices": "View All Engineering Services",
+    "learnMore": "Learn More",
+    "getInTouch": "Get in Touch",
+    "accreditations": "Accreditations & Codes",
+    "vision2030": "Proudly Supporting Saudi Vision 2030"
+  },
+  "Home": {
+    "badge": "Licensed Saudi Engineering Consultancy • Civil Defense Approved",
+    "heroTitle": "Engineering Certainty in Fire & Life Safety Across the Kingdom",
+    "heroSubtitle": "Modern Building For Consultancy Engineering (MBCE) provides Tier-1 Fire & Life Safety (FLS) engineering, Saudi Building Code (SBC) compliance audits, and Civil Defense approvals for Saudi Arabia's most ambitious giga-projects and landmark developments.",
+    "ctaPrimary": "Request Consultation",
+    "ctaSecondary": "Our Landmark Projects",
+    "stats": {
+      "projects": "150+",
+      "projectsLabel": "Projects Delivered",
+      "experience": "15+",
+      "experienceLabel": "Years Engineering Experience",
+      "approvals": "100%",
+      "approvalsLabel": "Civil Defense Compliance",
+      "specialists": "30+",
+      "specialistsLabel": "Certified FLS Engineers"
+    },
+    "servicesSectionTitle": "Comprehensive Engineering Solutions",
+    "servicesSectionSubtitle": "From preliminary architectural code review to testing, commissioning, and final licensing, we ensure total compliance and life safety excellence.",
+    "projectsSectionTitle": "Landmark Kingdom Portfolios",
+    "projectsSectionSubtitle": "Protecting iconic destinations across Diriyah, Qiddiya, King Salman Park, and nation-critical aviation and commercial infrastructure.",
+    "clientsSectionTitle": "Trusted by Industry Leaders",
+    "clientsSectionSubtitle": "Delivering mission-critical fire safety compliance to public entities, giga-project developers, and multinational corporations.",
+    "teamSectionTitle": "Executive Leadership & Subject Matter Experts",
+    "teamSectionSubtitle": "Decades of multidisciplinary engineering stewardship dedicated to safety, regulatory rigor, and technical precision.",
+    "ctaBannerTitle": "Secure Your Project's Regulatory & Life Safety Approvals",
+    "ctaBannerSubtitle": "Consult with our licensed Fire & Life Safety engineering specialists today for streamlined Civil Defense licensing and Saudi Building Code compliance.",
+    "ctaBannerButton": "Speak With an Engineering Director"
+  },
+  "About": {
+    "badge": "Corporate Profile & Regulatory Heritage",
+    "title": "Modern Building For Consultancy Engineering (MBCE)",
+    "subtitle": "Established in the Kingdom of Saudi Arabia with an uncompromising commitment to structural integrity, human safety, and regulatory excellence.",
+    "overviewTitle": "Company Overview",
+    "overviewP1": "Modern Building For Consultancy Engineering (MBCE) is a premier KSA-based engineering consultancy specializing in Fire and Life Safety (FLS) system design, building code compliance, and Civil Defense approval services.",
+    "overviewP2": "In full alignment with the Saudi Building Code (SBC 201/801), NFPA, IFC, and IBC standards, MBCE collaborates closely with private developers, public ministries, and regulatory bodies such as the General Directorate of Saudi Civil Defense, MODON, and the Royal Commission.",
+    "visionTitle": "Our Vision",
+    "visionText": "To stand as the Kingdom of Saudi Arabia's foremost Fire and Life Safety engineering consultancy, recognized for benchmark technical rigor, engineering innovation, and institutional trust.",
+    "missionTitle": "Our Mission",
+    "missionText": "To safeguard human life, national assets, and built infrastructure through unyielding adherence to codes, optimized value engineering, and seamless regulatory licensing.",
+    "chairmanMessageTitle": "Chairman & Executive Leadership",
+    "chairmanMessage": "Under the leadership of Chairman Eng. Anmar Al Qureshi and Executive Director Eng. Mohammad Almaayh, MBCE has spearheaded safety benchmarks for major developments across Riyadh, Jeddah, Makkah, and the Eastern Province.",
+    "codesTitle": "Strict Regulatory Code Frameworks",
+    "codesSubtitle": "Every blueprint, calculation, and hydraulic simulation engineered by MBCE complies rigorously with international and national safety mandates:"
+  },
+  "Services": {
+    "badge": "Disciplines & Technical Capabilities",
+    "title": "Premier Fire & Life Safety Engineering Services",
+    "subtitle": "Authoritative engineering consultancy across the complete project lifecycle — from code reviews to final Civil Defense licensing.",
+    "items": {
+      "fls": {
+        "title": "Fire & Life Safety (FLS) Engineering",
+        "description": "Comprehensive egress modeling, compartmentation analysis, fire hazard classification, and active/passive life safety system design in compliance with SBC and NFPA.",
+        "points": ["Hydraulic calculations & pipe sizing", "Fire sprinkler & suppression systems", "Smoke management & atrium ventilation design", "Egress capacity & evacuation calculations"]
+      },
+      "civilDefense": {
+        "title": "Civil Defense Approvals & Licensing",
+        "description": "Accredited engineering representation and streamlined processing through the official Saudi Civil Defense Salamah portal for commercial, industrial, and high-rise structures.",
+        "points": ["Salamah licensing submission & management", "Authority negotiations & technical clearances", "Third-party compliance certification", "Occupancy certificate acquisition"]
+      },
+      "buildingCode": {
+        "title": "Saudi Building Code (SBC) Compliance",
+        "description": "Rigorous auditing against SBC 201 (General Building Requirements) and SBC 801 (Fire Code), identifying variances early to eliminate expensive rework.",
+        "points": ["Architectural plan code reviews", "Structural fire resistance ratings", "Dangerous goods & hazardous materials auditing", "NFPA/IFC cross-standard alignment"]
+      },
+      "valueEngineering": {
+        "title": "Value Engineering",
+        "description": "Strategic optimization of fire protection architecture and mechanical systems to minimize capital expenditure without compromising safety or regulatory compliance.",
+        "points": ["Suppression system rationalization", "Cost-effective equipment specifications", "Material life-cycle assessment", "Operational efficiency modeling"]
+      },
+      "testingCommissioning": {
+        "title": "Testing & Commissioning",
+        "description": "On-site performance verification, fire pump flow testing, integrated fire alarm cause-and-effect matrix validation, and final handover audits.",
+        "points": ["Fire pump performance & hydrostatic testing", "Smoke control differential pressure testing", "Fire alarm & voice evacuation certification", "As-built verification and compliance sign-off"]
+      },
+      "mep": {
+        "title": "Mechanical & Plumbing (MEP) Engineering",
+        "description": "Integrated mechanical engineering, cold and hot water supply networks, industrial drainage, and specialized hazard suppression infrastructure.",
+        "points": ["Fire water reservoir & pump room design", "HVAC integration with life safety systems", "Special hazard gaseous suppression (FM-200, Novec)", "Kitchen hood & foam systems"]
+      }
+    }
+  },
+  "Portfolio": {
+    "badge": "Landmark Engineering Track Record",
+    "title": "Iconic Kingdom Projects",
+    "subtitle": "Proven excellence across Saudi Arabia's premier hospitality, entertainment, aviation, and high-rise developments.",
+    "allFilter": "All Projects",
+    "items": {
+      "capella": {
+        "title": "Capella Hotel - Diriyah",
+        "category": "Luxury Hospitality & Heritage",
+        "location": "Diriyah Gate, Riyadh",
+        "description": "Comprehensive Fire & Life Safety design and Civil Defense approval for this ultra-luxury destination within the UNESCO World Heritage Diriyah masterplan."
+      },
+      "salmanPark": {
+        "title": "King Salman Park",
+        "category": "Public Realm & Mega Infrastructure",
+        "location": "Riyadh",
+        "description": "Life safety strategy and fire protection consultation for the world's largest urban park development."
+      },
+      "qiddiya": {
+        "title": "Motor Sport Hotel - Qiddiya",
+        "category": "Entertainment & Hospitality",
+        "location": "Qiddiya, Riyadh",
+        "description": "Advanced smoke management, egress architecture, and hazard suppression systems engineered for high-density entertainment hospitality."
+      },
+      "airportLogistics": {
+        "title": "King Fahd International Airport - Logistics Warehouse",
+        "category": "Aviation & Logistics",
+        "location": "Dammam, Eastern Province",
+        "description": "High-expansion foam and specialized in-rack sprinkler systems for critical logistics infrastructure."
+      },
+      "masarNumu": {
+        "title": "Masar Numu Residential Tower",
+        "category": "High-Rise Residential",
+        "location": "Makkah / Western Province",
+        "description": "High-rise life safety compliance, pressurized stairwells, and emergency power integration for pilgrim accommodations."
+      },
+      "informationTower": {
+        "title": "Ministry of Information Tower",
+        "category": "Government & Civic Infrastructure",
+        "location": "Riyadh",
+        "description": "Fire protection refurbishment, clean agent gaseous suppression for broadcasting centers, and Civil Defense certification."
+      },
+      "rafalTower": {
+        "title": "Rafal Tower - Ascott",
+        "category": "Mixed-Use & Branded Residences",
+        "location": "Riyadh",
+        "description": "Life safety review, compartmentation validation, and integrated fire alarm commissioning for luxury branded towers."
+      },
+      "salmanUniversity": {
+        "title": "King Salman University",
+        "category": "Higher Education",
+        "location": "Kingdom of Saudi Arabia",
+        "description": "Campus-wide fire network modeling, hydrant distribution, and life safety evacuation planning across multiple faculties."
+      },
+      "zahranTowers": {
+        "title": "Zahran Towers",
+        "category": "Commercial High-Rise",
+        "location": "Jeddah",
+        "description": "Full Civil Defense licensing and hydraulic validation for premium high-density corporate towers."
+      }
+    }
+  },
+  "Team": {
+    "badge": "Engineering Stewardship",
+    "title": "Executive Leadership & Key Experts",
+    "subtitle": "Chartered engineers with extensive track records across Saudi regulatory bodies, NFPA committees, and international consultancies.",
+    "members": {
+      "anmar": {
+        "name": "Eng. Anmar Al Qureshi",
+        "role": "Chairman of the Board",
+        "credentials": "Lead Corporate Strategist • Infrastructure Advisory",
+        "bio": "Guiding MBCE's corporate trajectory and strategic partnerships across the Kingdom's mega-infrastructure and giga-project developments."
+      },
+      "mohammad": {
+        "name": "Eng. Mohammad Yousef AlMaayah",
+        "role": "Executive Director & Head of Jeddah Branch",
+        "credentials": "B.Sc Fire & Safety Eng • PMP (#4180955) • NFPA 25 & NFPA 101 Certified",
+        "bio": "Fire & Life Safety specialist with 8+ years leading SBC & Civil Defense compliance across major KSA landmarks including Sindalah Island NEOM, Jeddah Courts Complex, and KAFD."
+      },
+      "morad": {
+        "name": "Eng. Morad Amjed Ayasrah",
+        "role": "Fire Protection & Safety Engineer",
+        "credentials": "B.Sc Fire Protection Eng • CFPS (NFPA #1149893) • PMP • NASP Specialist",
+        "bio": "Expert in reviewing and designing safety systems drawings per NFPA and SBC standards, supervising field execution, and securing final Civil Defense approvals."
+      },
+      "ahmed": {
+        "name": "Eng. Ahmed Alamin",
+        "role": "Electrical Engineering Consultant",
+        "credentials": "M.Sc & B.Sc Electrical Eng • Saudi Council of Engineers (#889540) • NFPA 72 Certified",
+        "bio": "7+ years in electrical systems, fire alarm signaling, CCTV, and building management systems (BMS) for commercial and healthcare projects."
+      },
+      "hassan": {
+        "name": "Eng. Hassan Al Athath",
+        "role": "Architect & Developer",
+        "credentials": "M.Sc Landscape Architecture • B.Arch • Saudi Council of Engineers (#377371)",
+        "bio": "Architectural design and authority approvals lead under Saudi Building Code and Modon regulations; supervised landmark projects including Jeddah Waterfront Corniche."
+      },
+      "hisham": {
+        "name": "Eng. Hisham Ibrahim Al-Riyashi",
+        "role": "Electrical Engineer",
+        "credentials": "B.Sc Electrical Eng • Power, Lighting & Fire Alarm Specialist",
+        "bio": "Specialized in low current, lighting, grounding, and fire alarm design and site supervision per Saudi and international engineering standards."
+      },
+      "abusaad": {
+        "name": "Eng. Mohammad Ata Abu Sa'ad",
+        "role": "Fire & Safety Consultant Engineer",
+        "credentials": "B.Sc Fire & Safety Eng • ISO Lead Auditor • NEBOSH • NASP Diploma",
+        "bio": "Specialist in drafting and auditing fire protection engineering drawings, hazard analysis (HAZOP), and technical reporting approved by the General Directorate of Civil Defense."
+      }
+    }
+  },
+  "Clients": {
+    "badge": "Client Partnerships",
+    "title": "Trusted by Public Authorities & Corporate Giants",
+    "subtitle": "MBCE is privileged to engineer safety and regulatory compliance for Saudi Arabia's most prestigious entities.",
+    "sectors": {
+      "giga": "Giga-Projects & Master Developers",
+      "aviation": "Aviation, Government & Logistics",
+      "financial": "Banking & Financial Institutions",
+      "commercial": "Retail, Hospitality & Industry"
+    }
+  },
+  "Contact": {
+    "badge": "Direct Technical Consultation",
+    "title": "Initiate Your Project Consultation",
+    "subtitle": "Connect directly with MBCE's Fire & Life Safety directors for technical reviews, Civil Defense licensing, and code compliance.",
+    "form": {
+      "title": "Project Inquiry & Quote Request",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Eng. / Mr. / Ms. Name",
+      "email": "Business Email Address",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Mobile / Phone Number",
+      "phonePlaceholder": "+966 5X XXX XXXX",
+      "company": "Organization / Developer Name",
+      "companyPlaceholder": "Company Name",
+      "serviceType": "Engineering Service Required",
+      "serviceOptions": {
+        "select": "Select primary service discipline...",
+        "fls": "Fire & Life Safety (FLS) Design",
+        "civilDefense": "Civil Defense Approvals & Salamah Portal",
+        "buildingCode": "Saudi Building Code (SBC) Compliance Audit",
+        "valueEngineering": "Value Engineering & Cost Optimization",
+        "testingCommissioning": "Testing, Commissioning & Final Handover",
+        "mep": "Mechanical & Plumbing (MEP) Engineering"
+      },
+      "location": "Project Location (City / Region)",
+      "locationPlaceholder": "e.g. Riyadh, Diriyah, Jeddah, NEOM",
+      "message": "Project Scope & Description",
+      "messagePlaceholder": "Please describe your project scope, building classification, gross floor area, and required timeline...",
+      "submitButton": "Submit Inquiry via Official Channel",
+      "mailtoFallbackNotice": "Submitting will open your default email client with pre-filled technical inquiry details addressed to info@modernbuildingceo.com.sa.",
+      "successTitle": "Inquiry Prepared",
+      "successMessage": "Your inquiry details have been formatted. Launching your email client now...",
+      "validationError": "Please complete all required fields accurately."
+    },
+    "details": {
+      "officeTitle": "Headquarters Location",
+      "address": "Riyadh, Kingdom of Saudi Arabia",
+      "workingHoursTitle": "Engineering Working Hours",
+      "workingHours": "Sunday – Thursday: 8:00 AM – 5:00 PM AST",
+      "phoneTitle": "Direct Telephone",
+      "emailTitle": "Official Communications",
+      "licenseTitle": "Regulatory Accreditations",
+      "licenseText": "Licensed by Saudi Council of Engineers • Approved by General Directorate of Civil Defense"
+    }
+  },
+  "Footer": {
+    "aboutText": "Modern Building For Consultancy Engineering (MBCE) is an elite Saudi engineering consultancy specializing in Fire & Life Safety design, Saudi Building Code compliance, and Civil Defense approvals.",
+    "quickLinks": "Quick Navigation",
+    "disciplines": "Core Disciplines",
+    "contact": "Contact MBCE",
+    "copyright": "All rights reserved.",
+    "civilDefenseNotice": "Official Licensee of Saudi Civil Defense & Saudi Council of Engineers."
+  }
+}
