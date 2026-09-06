@@ -348,6 +348,10 @@
     "disciplines": "Core Disciplines",
     "contact": "Contact MBEC",
     "copyright": "All rights reserved.",
-    "civilDefenseNotice": "Official Licensee of Saudi Civil Defense & Saudi Council of Engineers."
+    "civilDefenseNotice": "Official Licensee of Saudi Civil Defense, Saudi Council of Engineers, HCIS & MODON.",
+    "civilDefenseBadge": "Civil Defense Approved",
+    "sbcBadge": "SBC 201 / 801",
+    "hcisBadge": "HCIS Industrial Security Approved",
+    "modonBadge": "MODON Approved"
   }
 }

@@ -10,6 +10,7 @@ import {
   Award,
   Flame,
   CheckCircle2,
+  Building2,
 } from "lucide-react";
 
 export function Footer() {
@@ -54,11 +55,19 @@ export function Footer() {
             <div className="pt-2 flex flex-wrap gap-2">
               <div className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-neutral-300">
                 <ShieldCheck className="h-3.5 w-3.5 text-brand-orange" />
-                <span>Civil Defense Approved</span>
+                <span>{tFooter("civilDefenseBadge")}</span>
               </div>
               <div className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-neutral-300">
                 <Award className="h-3.5 w-3.5 text-brand-orange" />
-                <span>SBC 201 / 801</span>
+                <span>{tFooter("sbcBadge")}</span>
+              </div>
+              <div className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-neutral-300">
+                <ShieldCheck className="h-3.5 w-3.5 text-brand-orange" />
+                <span>{tFooter("hcisBadge")}</span>
+              </div>
+              <div className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-neutral-300">
+                <Building2 className="h-3.5 w-3.5 text-brand-orange" />
+                <span>{tFooter("modonBadge")}</span>
               </div>
             </div>
           </div>
@@ -171,7 +180,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} {tCommon("companyName")} ({tCommon("companyShort")}). {tFooter("copyright")}
           </p>
           <div className="flex items-center gap-6">
-            <span className="text-neutral-400">NFPA • SBC • IFC • IBC</span>
+            <span className="text-neutral-400">NFPA • SBC • HCIS • MODON</span>
             <span className="inline-flex items-center gap-1 text-brand-orange font-medium">
               <Flame className="h-3.5 w-3.5" />
               <span>Fire & Life Safety Certified</span>
