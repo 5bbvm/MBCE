@@ -32,12 +32,12 @@ const nextConfig = {
           {
             key: 'Content-Security-Policy',
             value: [
-              "default-src 'self'",
-              "script-src 'self' 'unsafe-eval' 'unsafe-inline'",
+              "default-src 'self' https://*.vercel.app https://vercel.live",
+              "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.vercel.app https://vercel.live",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com data:",
-              "img-src 'self' data: blob:",
-              "connect-src 'self'",
+              "img-src 'self' data: blob: https://*.vercel.app",
+              "connect-src 'self' https://*.vercel.app https://vercel.live wss://ws-*.pusher.com",
               "frame-ancestors 'none'",
               "form-action 'self' mailto:",
             ].join('; '),
