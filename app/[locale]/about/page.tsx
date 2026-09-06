@@ -23,6 +23,7 @@ export default async function AboutPage({
 
 function AboutContent() {
   const t = useTranslations("About");
+  const tNav = useTranslations("Nav");
   const tCommon = useTranslations("Common");
 
   const codes = [
@@ -150,7 +151,7 @@ function AboutContent() {
                 href="/team"
                 className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-orange hover:underline"
               >
-                <span>Meet Executive Leadership & Specialists</span>
+                <span>{tNav("team")}</span>
                 <ArrowUpRight className="h-3.5 w-3.5" />
               </Link>
             </div>

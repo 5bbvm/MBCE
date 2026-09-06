@@ -148,7 +148,7 @@ function ServicesContent() {
                         {service.title}
                       </h2>
                       <span className="text-xs font-mono uppercase tracking-wider text-slate-500 dark:text-neutral-400">
-                        MBCE Core Discipline
+                        MBEC Core Discipline
                       </span>
                     </div>
                   </div>

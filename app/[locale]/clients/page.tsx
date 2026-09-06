@@ -50,7 +50,7 @@ function ClientsContent() {
               Strategic Partners &amp; Client Registry
             </h2>
             <p className="text-xs sm:text-sm text-brand-slate dark:text-neutral-400 mt-1">
-              Filter by industry sector to explore MBCE&apos;s Fire &amp; Life Safety track record.
+              Filter by industry sector to explore MBEC&apos;s Fire &amp; Life Safety track record.
             </p>
           </div>
 

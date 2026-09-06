@@ -62,11 +62,11 @@ export function ContactForm() {
     const recipient = "info@modernbuildingceo.com.sa";
     const ccRecipient = "mmaayah@modernbuildingceo.com.sa";
     const subject = encodeURIComponent(
-      `[MBCE Engineering Consultation] ${formData.serviceType} - ${formData.company || formData.fullName}`
+      `[MBEC Engineering Consultation] ${formData.serviceType} - ${formData.company || formData.fullName}`
     );
 
     const bodyText = [
-      "MBCE ENGINEERING INQUIRY SUBMISSION",
+      "MBEC ENGINEERING INQUIRY SUBMISSION",
       "==================================",
       "",
       `Client / Engineer: ${formData.fullName}`,
@@ -81,7 +81,7 @@ export function ContactForm() {
       formData.message,
       "",
       "==================================",
-      "Submitted via MBCE Official Corporate Profile Portal",
+      "Submitted via MBEC Official Corporate Profile Portal",
     ].join("\n");
 
     const mailtoUrl = `mailto:${recipient}?cc=${ccRecipient}&subject=${subject}&body=${encodeURIComponent(

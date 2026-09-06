@@ -100,7 +100,7 @@ export function ProjectCard({
 
         {/* Bottom Status bar */}
         <div className="mt-4 pt-3 flex items-center justify-between border-t border-slate-100 dark:border-white/5 text-xs text-slate-500 dark:text-neutral-400">
-          <span className="font-mono text-slate-500 dark:text-neutral-400">MBCE Fire & Life Safety</span>
+          <span className="font-mono text-slate-500 dark:text-neutral-400">MBEC Fire & Life Safety</span>
           <div className="inline-flex items-center gap-1 text-brand-orange font-semibold group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform">
             <span>SBC 801 Compliant</span>
             <ArrowUpRight className="h-3.5 w-3.5" />

@@ -31,7 +31,7 @@ export function BrandLogo({
     content = (
       <Image
         src={src}
-        alt="Modern Building For Consultancy Engineering (MBCE)"
+        alt="Modern Building For Engineering Consultancy (MBEC)"
         width={160}
         height={50}
         priority={priority}
@@ -47,7 +47,7 @@ export function BrandLogo({
     content = (
       <Image
         src={src}
-        alt="Modern Building For Consultancy Engineering (MBCE)"
+        alt="Modern Building For Engineering Consultancy (MBEC)"
         width={160}
         height={50}
         priority={priority}
@@ -61,7 +61,7 @@ export function BrandLogo({
         {/* Light theme logo: slate text on light canvas */}
         <Image
           src="/assets/brand/mbce-logo-light.svg"
-          alt="Modern Building For Consultancy Engineering (MBCE)"
+          alt="Modern Building For Engineering Consultancy (MBEC)"
           width={160}
           height={50}
           priority={priority}
@@ -70,7 +70,7 @@ export function BrandLogo({
         {/* Dark theme logo: white text on dark canvas */}
         <Image
           src="/assets/brand/mbce-logo-dark.svg"
-          alt="Modern Building For Consultancy Engineering (MBCE)"
+          alt="Modern Building For Engineering Consultancy (MBEC)"
           width={160}
           height={50}
           priority={priority}
@@ -93,7 +93,7 @@ export function BrandLogo({
 
   if (href) {
     return (
-      <Link href={href} aria-label="MBCE Home" className="inline-flex items-center">
+      <Link href={href} aria-label="MBEC Home" className="inline-flex items-center">
         {wrapper}
       </Link>
     );

@@ -1,14 +1,14 @@
-# Modern Building For Consultancy Engineering (MBCE)
+# Modern Building For Engineering Consultancy (MBEC)
 ### الابنية الحديثة للاستشارات الهندسية
 
-An elite, high-performance corporate web platform engineered for **Modern Building For Consultancy Engineering (MBCE)** — a premier Saudi engineering consultancy specialized in **Fire & Life Safety (FLS)** design, **Saudi Building Code (SBC)** compliance audits, and statutory **Civil Defense Approvals** across the Kingdom of Saudi Arabia.
+An elite, high-performance corporate web platform engineered for **Modern Building For Engineering Consultancy (MBEC)** — a premier Saudi engineering consultancy specialized in **Fire & Life Safety (FLS)** design, **Saudi Building Code (SBC)** compliance audits, and statutory **Civil Defense Approvals** across the Kingdom of Saudi Arabia.
 
 ---
 
 ## Key Highlights
 
 - **Bilingual Architecture (EN / AR)**: Built with [`next-intl`](https://next-intl-docs.vercel.app/) with sub-path routing (`/[locale]/...`), dynamic language switching, and full RTL layout integration.
-- **Executive Design System**: Light-mode-first aesthetic inspired by MBCE's official documentation, with dual-theme toggleable support (Dark / Carbon) powered by Tailwind CSS tokens.
+- **Executive Design System**: Light-mode-first aesthetic inspired by MBEC's official documentation, with dual-theme toggleable support (Dark / Carbon) powered by Tailwind CSS tokens.
 - **Engineering Precision & Terminology**: Elevated Saudi engineering terminology aligned with Saudi Council of Engineers standards and Civil Defense regulatory procedures.
 - **Interactive Componentry**: Infinite bidirectional client partner marquee, landmark portfolio filtering, and verified leadership profiles.
 - **Performance & SEO**: Fully pre-rendered static generation (SSG) with optimized image delivery and structured OpenGraph metadata.
@@ -32,7 +32,7 @@ An elite, high-performance corporate web platform engineered for **Modern Buildi
 ## Project Structure
 
 ```text
-MBCE/
+MBEC/
 ├── app/
 │   └── [locale]/                 # Dynamic locale root (en / ar)
 │       ├── layout.tsx            # Locale-aware root layout & metadata
@@ -115,4 +115,4 @@ npm start
 
 ## License
 
-All rights reserved © Modern Building For Consultancy Engineering (MBCE).
+All rights reserved © Modern Building For Engineering Consultancy (MBEC).

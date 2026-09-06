@@ -100,7 +100,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Col 4: Official Contact & Riyadh Office */}
+          {/* Col 4: Official Contact & Headquarters */}
           <div className="lg:col-span-3 space-y-4 text-start">
             <h3 className="text-xs font-semibold uppercase tracking-wider text-white mb-4">
               {tFooter("contact")}
@@ -109,7 +109,14 @@ export function Footer() {
             <div className="space-y-3 text-sm text-neutral-400">
               <div className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-brand-orange shrink-0 mt-0.5" />
-                <span>{tCommon("headquarters")}</span>
+                <div className="space-y-1">
+                  <span className="text-neutral-300 font-medium block">
+                    {tCommon("headquarters")}
+                  </span>
+                  <span className="text-xs text-neutral-400 block leading-relaxed">
+                    {tCommon("branchesSummary")}
+                  </span>
+                </div>
               </div>
 
               <div className="flex items-center gap-3">

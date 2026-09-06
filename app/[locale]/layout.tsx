@@ -44,27 +44,30 @@ export async function generateMetadata({
   return {
     title: {
       default: isArabic
-        ? "الابنية الحديثة للاستشارات الهندسية (MBCE) | استشارات السلامة وكود البناء والدفاع المدني"
-        : "Modern Building For Consultancy Engineering (MBCE) | Fire & Life Safety Consultancy",
-      template: "%s | MBCE",
+        ? "الابنية الحديثة للاستشارات الهندسية (MBEC) | استشارات السلامة وكود البناء والدفاع المدني"
+        : "Modern Building For Engineering Consultancy (MBEC) | Fire & Life Safety Consultancy",
+      template: "%s | MBEC",
     },
     description: isArabic
       ? "شركة استشارية سعودية رائدة متخصصة في هندسة السلامة والوقاية من الحريق وحماية الأرواح، والتدقيق الشامل لكود البناء السعودي، وإصدار اعتمادات وتراخيص الدفاع المدني."
       : "Premier Saudi engineering consultancy specializing in Fire & Life Safety (FLS) systems design, Saudi Building Code (SBC) compliance, and Civil Defense approvals across KSA.",
     metadataBase: new URL("https://modernbuildingceo.com.sa"),
     keywords: [
-      "MBCE",
-      "Modern Building For Consultancy Engineering",
+      "MBEC",
+      "Modern Building For Engineering Consultancy",
       "Fire and Life Safety Saudi Arabia",
+      "Civil Defense Approvals Jeddah Head Office",
       "Civil Defense Approvals Riyadh",
+      "Civil Defense Approvals Makkah",
+      "Civil Defense Approvals Abha",
       "Saudi Building Code SBC 801",
       "الابنية الحديثة للاستشارات الهندسية",
       "السلامة والوقاية من الحريق",
-      "تراخيص الدفاع المدني",
+      "تراخيص الدفاع المدني جدة الرياض مكة ابها",
       "كود البناء السعودي",
     ],
-    authors: [{ name: "MBCE Corporate Engineering" }],
-    creator: "MBCE",
+    authors: [{ name: "MBEC Corporate Engineering" }],
+    creator: "MBEC",
     icons: {
       icon: "/assets/brand/mbce-logo-light.svg",
       shortcut: "/assets/brand/mbce-logo-light.svg",
