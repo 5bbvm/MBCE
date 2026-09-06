@@ -4,11 +4,13 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import {
   Flame,
-  ShieldCheck,
-  FileCheck2,
-  TrendingDown,
+  Bell,
+  DoorOpen,
+  Wind,
+  AirVent,
   Gauge,
-  Building2,
+  Activity,
+  ShieldCheck,
   CheckCircle2,
   ArrowUpRight,
 } from "lucide-react";
@@ -30,82 +32,102 @@ function ServicesContent() {
 
   const services = [
     {
-      id: "fls",
-      title: tItems("fls.title"),
-      desc: tItems("fls.description"),
+      id: "fireProtection",
+      number: "01",
+      title: tItems("fireProtection.title"),
+      desc: tItems("fireProtection.description"),
       icon: Flame,
       points: [
-        tItems("fls.points.0"),
-        tItems("fls.points.1"),
-        tItems("fls.points.2"),
-        tItems("fls.points.3"),
+        tItems("fireProtection.points.0"),
+        tItems("fireProtection.points.1"),
+        tItems("fireProtection.points.2"),
+        tItems("fireProtection.points.3"),
       ],
-      deliverables: "Hydraulic models, NFPA sprinkler layouts, smoke purge airflow simulations, egress capacity sheets",
+      deliverables: "Hydraulic models, NFPA sprinkler layouts, foam/clean-agent drawings, fire pump calculations",
     },
     {
-      id: "civilDefense",
-      title: tItems("civilDefense.title"),
-      desc: tItems("civilDefense.description"),
-      icon: ShieldCheck,
+      id: "fireAlarm",
+      number: "02",
+      title: tItems("fireAlarm.title"),
+      desc: tItems("fireAlarm.description"),
+      icon: Bell,
       points: [
-        tItems("civilDefense.points.0"),
-        tItems("civilDefense.points.1"),
-        tItems("civilDefense.points.2"),
-        tItems("civilDefense.points.3"),
+        tItems("fireAlarm.points.0"),
+        tItems("fireAlarm.points.1"),
+        tItems("fireAlarm.points.2"),
+        tItems("fireAlarm.points.3"),
       ],
-      deliverables: "Salamah platform clearance approvals, official compliance certificates, occupancy licenses",
+      deliverables: "Control panel schematics, detector layout plans, cause-and-effect matrix, BMS integration",
     },
     {
-      id: "buildingCode",
-      title: tItems("buildingCode.title"),
-      desc: tItems("buildingCode.description"),
-      icon: FileCheck2,
+      id: "lifeSafety",
+      number: "03",
+      title: tItems("lifeSafety.title"),
+      desc: tItems("lifeSafety.description"),
+      icon: DoorOpen,
       points: [
-        tItems("buildingCode.points.0"),
-        tItems("buildingCode.points.1"),
-        tItems("buildingCode.points.2"),
-        tItems("buildingCode.points.3"),
+        tItems("lifeSafety.points.0"),
+        tItems("lifeSafety.points.1"),
+        tItems("lifeSafety.points.2"),
+        tItems("lifeSafety.points.3"),
       ],
-      deliverables: "SBC 201/801 variance audits, fire resistance rating validation, hazardous storage compliance",
+      deliverables: "Egress capacity sheets, travel distance audits, fire-rated compartment plans, exit signage schedules",
     },
     {
-      id: "valueEngineering",
-      title: tItems("valueEngineering.title"),
-      desc: tItems("valueEngineering.description"),
-      icon: TrendingDown,
+      id: "smokeControl",
+      number: "04",
+      title: tItems("smokeControl.title"),
+      desc: tItems("smokeControl.description"),
+      icon: Wind,
       points: [
-        tItems("valueEngineering.points.0"),
-        tItems("valueEngineering.points.1"),
-        tItems("valueEngineering.points.2"),
-        tItems("valueEngineering.points.3"),
+        tItems("smokeControl.points.0"),
+        tItems("smokeControl.points.1"),
+        tItems("smokeControl.points.2"),
+        tItems("smokeControl.points.3"),
       ],
-      deliverables: "CAPEX/OPEX optimization reports, alternative suppression system modeling, lifecycle cost savings",
+      deliverables: "Smoke zone layouts, fan exhaust rate calculations, damper schedules, sequence of operations",
     },
     {
-      id: "testingCommissioning",
-      title: tItems("testingCommissioning.title"),
-      desc: tItems("testingCommissioning.description"),
+      id: "ventilation",
+      number: "05",
+      title: tItems("ventilation.title"),
+      desc: tItems("ventilation.description"),
+      icon: AirVent,
+      points: [
+        tItems("ventilation.points.0"),
+        tItems("ventilation.points.1"),
+        tItems("ventilation.points.2"),
+        tItems("ventilation.points.3"),
+      ],
+      deliverables: "Air-change rate models, car park & basement ventilation schematics, fan selection curves, IAQ audits",
+    },
+    {
+      id: "pressurization",
+      number: "06",
+      title: tItems("pressurization.title"),
+      desc: tItems("pressurization.description"),
       icon: Gauge,
       points: [
-        tItems("testingCommissioning.points.0"),
-        tItems("testingCommissioning.points.1"),
-        tItems("testingCommissioning.points.2"),
-        tItems("testingCommissioning.points.3"),
+        tItems("pressurization.points.0"),
+        tItems("pressurization.points.1"),
+        tItems("pressurization.points.2"),
+        tItems("pressurization.points.3"),
       ],
-      deliverables: "Pump flow performance curves, stairwell differential pressure reports, integrated fire alarm cause & effect test matrices",
+      deliverables: "Differential pressure calculations, leakage assessments, door-opening force checks, fan sizing",
     },
     {
-      id: "mep",
-      title: tItems("mep.title"),
-      desc: tItems("mep.description"),
-      icon: Building2,
+      id: "cfd",
+      number: "07",
+      title: tItems("cfd.title"),
+      desc: tItems("cfd.description"),
+      icon: Activity,
       points: [
-        tItems("mep.points.0"),
-        tItems("mep.points.1"),
-        tItems("mep.points.2"),
-        tItems("mep.points.3"),
+        tItems("cfd.points.0"),
+        tItems("cfd.points.1"),
+        tItems("cfd.points.2"),
+        tItems("cfd.points.3"),
       ],
-      deliverables: "Dedicated fire water tank designs, server room clean gas suppression, commercial kitchen hoods, industrial plumbing",
+      deliverables: "3D smoke spread simulations, temperature & visibility contours, ASET vs RSET comparative validation",
     },
   ];
 
@@ -144,12 +166,17 @@ function ServicesContent() {
                       <Icon className="h-7 w-7" />
                     </div>
                     <div>
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="inline-block rounded-md bg-brand-orange/10 px-2 py-0.5 text-xs font-mono font-bold text-brand-orange dark:bg-brand-orange/20">
+                          {service.number}
+                        </span>
+                        <span className="text-xs font-mono uppercase tracking-wider text-slate-500 dark:text-neutral-400">
+                          {t("disciplineTag")}
+                        </span>
+                      </div>
                       <h2 className="text-xl sm:text-2xl font-bold text-brand-charcoal group-hover:text-brand-orange transition-colors dark:text-white">
                         {service.title}
                       </h2>
-                      <span className="text-xs font-mono uppercase tracking-wider text-slate-500 dark:text-neutral-400">
-                        MBEC Core Discipline
-                      </span>
                     </div>
                   </div>
 
@@ -161,7 +188,7 @@ function ServicesContent() {
                   {/* Key Scope Points */}
                   <div className="space-y-3 pt-3 border-t border-slate-100 dark:border-white/5">
                     <h4 className="text-xs font-semibold uppercase tracking-wider text-brand-orange">
-                      Engineering Scope & Compliance
+                      {t("engineeringScope")}
                     </h4>
                     <ul className="space-y-2.5">
                       {service.points.map((pt, idx) => (
@@ -177,14 +204,14 @@ function ServicesContent() {
                 {/* Bottom CTA */}
                 <div className="mt-8 pt-6 border-t border-slate-100 dark:border-white/10 flex items-center justify-between">
                   <span className="text-xs text-slate-500 dark:text-neutral-400 font-mono">
-                    SBC & NFPA Compliant
+                    {t("complianceBadge")}
                   </span>
                   <Link
                     href="/contact"
                     className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-brand-orange hover:text-brand-orange-hover"
                   >
-                    <span>Inquire for Project</span>
-                    <ArrowUpRight className="h-4 w-4" />
+                    <span>{t("inquireButton")}</span>
+                    <ArrowUpRight className="h-4 w-4 rtl:rotate-90" />
                   </Link>
                 </div>
               </div>
@@ -192,20 +219,27 @@ function ServicesContent() {
           })}
         </div>
 
+        {/* Scope Note Banner from Document */}
+        <div className="rounded-2xl border border-brand-orange/20 bg-brand-orange/5 p-6 sm:p-8 text-center max-w-4xl mx-auto dark:border-brand-orange/30 dark:bg-brand-orange/10 shadow-sm">
+          <p className="text-xs sm:text-sm text-brand-charcoal dark:text-neutral-200 leading-relaxed font-medium">
+            {t("scopeNote")}
+          </p>
+        </div>
+
         {/* Bottom Consultation Banner */}
         <div className="rounded-2xl border border-slate-200/80 bg-white p-8 sm:p-12 text-center max-w-4xl mx-auto space-y-6 shadow-card dark:border-white/10 dark:bg-brand-carbon-card">
           <h3 className="text-2xl sm:text-3xl font-bold text-brand-charcoal dark:text-white">
-            Need a Comprehensive Code Compliance Review?
+            {t("ctaTitle")}
           </h3>
           <p className="text-sm sm:text-base text-brand-slate dark:text-neutral-400 max-w-2xl mx-auto">
-            Our certified engineering consultants review architectural blueprints, hydraulic calculations, and Salamah licensing submissions to eliminate delays.
+            {t("ctaSubtitle")}
           </p>
           <div>
             <Link
               href="/contact"
               className="inline-flex items-center gap-2 rounded-full bg-brand-orange px-8 py-4 text-sm sm:text-base font-bold text-white shadow-lg shadow-brand-orange/25 hover:bg-brand-orange-hover transition-colors"
             >
-              <span>Schedule an Engineering Consultation</span>
+              <span>{t("ctaButton")}</span>
               <ArrowUpRight className="h-4 w-4 rtl:rotate-90" />
             </Link>
           </div>

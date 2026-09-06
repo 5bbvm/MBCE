@@ -7,14 +7,16 @@ import { PROJECTS_CATALOG } from "@/components/projects/projectsData";
 import { ClientMarquee } from "@/components/clients/ClientMarquee";
 import {
   Flame,
-  FileCheck2,
+  Bell,
+  DoorOpen,
+  Wind,
+  AirVent,
+  Gauge,
+  Activity,
   CheckCircle2,
   ArrowUpRight,
   ChevronRight,
-  TrendingDown,
-  Gauge,
   ShieldCheck,
-  Building2,
 } from "lucide-react";
 
 export default async function HomePage({
@@ -31,74 +33,94 @@ export default async function HomePage({
 function HomeContent() {
   const tHome = useTranslations("Home");
   const tNav = useTranslations("Nav");
-  const tServices = useTranslations("Services.items");
+  const tCommon = useTranslations("Common");
+  const tServices = useTranslations("Services");
+  const tItems = useTranslations("Services.items");
   const tPortfolio = useTranslations("Portfolio.items");
 
   const servicesList = [
     {
-      key: "fls",
-      title: tServices("fls.title"),
-      desc: tServices("fls.description"),
+      key: "fireProtection",
+      number: "01",
+      title: tItems("fireProtection.title"),
+      desc: tItems("fireProtection.description"),
       icon: Flame,
       points: [
-        tServices("fls.points.0"),
-        tServices("fls.points.1"),
-        tServices("fls.points.2"),
+        tItems("fireProtection.points.0"),
+        tItems("fireProtection.points.1"),
+        tItems("fireProtection.points.2"),
       ],
     },
     {
-      key: "civilDefense",
-      title: tServices("civilDefense.title"),
-      desc: tServices("civilDefense.description"),
-      icon: ShieldCheck,
+      key: "fireAlarm",
+      number: "02",
+      title: tItems("fireAlarm.title"),
+      desc: tItems("fireAlarm.description"),
+      icon: Bell,
       points: [
-        tServices("civilDefense.points.0"),
-        tServices("civilDefense.points.1"),
-        tServices("civilDefense.points.2"),
+        tItems("fireAlarm.points.0"),
+        tItems("fireAlarm.points.1"),
+        tItems("fireAlarm.points.2"),
       ],
     },
     {
-      key: "buildingCode",
-      title: tServices("buildingCode.title"),
-      desc: tServices("buildingCode.description"),
-      icon: FileCheck2,
+      key: "lifeSafety",
+      number: "03",
+      title: tItems("lifeSafety.title"),
+      desc: tItems("lifeSafety.description"),
+      icon: DoorOpen,
       points: [
-        tServices("buildingCode.points.0"),
-        tServices("buildingCode.points.1"),
-        tServices("buildingCode.points.2"),
+        tItems("lifeSafety.points.0"),
+        tItems("lifeSafety.points.1"),
+        tItems("lifeSafety.points.2"),
       ],
     },
     {
-      key: "valueEngineering",
-      title: tServices("valueEngineering.title"),
-      desc: tServices("valueEngineering.description"),
-      icon: TrendingDown,
+      key: "smokeControl",
+      number: "04",
+      title: tItems("smokeControl.title"),
+      desc: tItems("smokeControl.description"),
+      icon: Wind,
       points: [
-        tServices("valueEngineering.points.0"),
-        tServices("valueEngineering.points.1"),
-        tServices("valueEngineering.points.2"),
+        tItems("smokeControl.points.0"),
+        tItems("smokeControl.points.1"),
+        tItems("smokeControl.points.2"),
       ],
     },
     {
-      key: "testingCommissioning",
-      title: tServices("testingCommissioning.title"),
-      desc: tServices("testingCommissioning.description"),
+      key: "ventilation",
+      number: "05",
+      title: tItems("ventilation.title"),
+      desc: tItems("ventilation.description"),
+      icon: AirVent,
+      points: [
+        tItems("ventilation.points.0"),
+        tItems("ventilation.points.1"),
+        tItems("ventilation.points.2"),
+      ],
+    },
+    {
+      key: "pressurization",
+      number: "06",
+      title: tItems("pressurization.title"),
+      desc: tItems("pressurization.description"),
       icon: Gauge,
       points: [
-        tServices("testingCommissioning.points.0"),
-        tServices("testingCommissioning.points.1"),
-        tServices("testingCommissioning.points.2"),
+        tItems("pressurization.points.0"),
+        tItems("pressurization.points.1"),
+        tItems("pressurization.points.2"),
       ],
     },
     {
-      key: "mep",
-      title: tServices("mep.title"),
-      desc: tServices("mep.description"),
-      icon: Building2,
+      key: "cfd",
+      number: "07",
+      title: tItems("cfd.title"),
+      desc: tItems("cfd.description"),
+      icon: Activity,
       points: [
-        tServices("mep.points.0"),
-        tServices("mep.points.1"),
-        tServices("mep.points.2"),
+        tItems("cfd.points.0"),
+        tItems("cfd.points.1"),
+        tItems("cfd.points.2"),
       ],
     },
   ];
@@ -238,15 +260,20 @@ function HomeContent() {
                   className="group relative flex flex-col justify-between rounded-2xl border border-slate-200/80 bg-white p-6 sm:p-8 shadow-card transition-all duration-300 hover:border-brand-orange/40 hover:shadow-card-hover dark:border-white/10 dark:bg-brand-carbon-card dark:hover:border-brand-orange/40 dark:hover:shadow-2xl text-start"
                 >
                   <div className="space-y-4">
-                    <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-orange/10 text-brand-orange border border-brand-orange/20 transition-transform group-hover:scale-110">
-                      <Icon className="h-6 w-6" />
+                    <div className="flex items-center justify-between">
+                      <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-orange/10 text-brand-orange border border-brand-orange/20 transition-transform group-hover:scale-110">
+                        <Icon className="h-6 w-6" />
+                      </div>
+                      <span className="text-xs font-mono font-bold text-slate-400 dark:text-neutral-500">
+                        {service.number}
+                      </span>
                     </div>
 
                     <h3 className="text-lg sm:text-xl font-bold text-brand-charcoal group-hover:text-brand-orange transition-colors dark:text-white">
                       {service.title}
                     </h3>
 
-                    <p className="text-xs sm:text-sm text-brand-slate leading-relaxed dark:text-neutral-400">
+                    <p className="text-xs sm:text-sm text-brand-slate leading-relaxed dark:text-neutral-400 line-clamp-4">
                       {service.desc}
                     </p>
 
@@ -265,8 +292,8 @@ function HomeContent() {
                       href="/services"
                       className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-orange hover:text-brand-orange-hover"
                     >
-                      <span>Explore Technical Scope</span>
-                      <ArrowUpRight className="h-3.5 w-3.5" />
+                      <span>{tCommon("exploreScope")}</span>
+                      <ArrowUpRight className="h-3.5 w-3.5 rtl:rotate-90" />
                     </Link>
                   </div>
                 </div>
@@ -274,12 +301,19 @@ function HomeContent() {
             })}
           </div>
 
-          <div className="mt-12 text-center">
+          {/* Scope Note from Document */}
+          <div className="mt-10 rounded-xl border border-slate-200/80 bg-slate-50/70 p-4 sm:p-5 text-center dark:border-white/10 dark:bg-white/5">
+            <p className="text-xs sm:text-sm text-brand-slate dark:text-neutral-400 leading-relaxed max-w-4xl mx-auto">
+              {tServices("scopeNote")}
+            </p>
+          </div>
+
+          <div className="mt-10 text-center">
             <Link
               href="/services"
               className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-800 shadow-sm hover:border-brand-orange/50 hover:bg-slate-50 dark:border-white/15 dark:bg-white/5 dark:text-white dark:hover:bg-white/10 transition-colors"
             >
-              <span>View All 6 Engineering Disciplines</span>
+              <span>{tCommon("allServices")}</span>
               <ChevronRight className="h-4 w-4 rtl:rotate-180" />
             </Link>
           </div>

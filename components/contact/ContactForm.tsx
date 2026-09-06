@@ -245,23 +245,26 @@ export function ContactForm() {
               <option value="" disabled className="text-slate-400">
                 {t("serviceOptions.select")}
               </option>
-              <option value={t("serviceOptions.fls")}>
-                {t("serviceOptions.fls")}
+              <option value={t("serviceOptions.fireProtection")}>
+                {t("serviceOptions.fireProtection")}
               </option>
-              <option value={t("serviceOptions.civilDefense")}>
-                {t("serviceOptions.civilDefense")}
+              <option value={t("serviceOptions.fireAlarm")}>
+                {t("serviceOptions.fireAlarm")}
               </option>
-              <option value={t("serviceOptions.buildingCode")}>
-                {t("serviceOptions.buildingCode")}
+              <option value={t("serviceOptions.lifeSafety")}>
+                {t("serviceOptions.lifeSafety")}
               </option>
-              <option value={t("serviceOptions.valueEngineering")}>
-                {t("serviceOptions.valueEngineering")}
+              <option value={t("serviceOptions.smokeControl")}>
+                {t("serviceOptions.smokeControl")}
               </option>
-              <option value={t("serviceOptions.testingCommissioning")}>
-                {t("serviceOptions.testingCommissioning")}
+              <option value={t("serviceOptions.ventilation")}>
+                {t("serviceOptions.ventilation")}
               </option>
-              <option value={t("serviceOptions.mep")}>
-                {t("serviceOptions.mep")}
+              <option value={t("serviceOptions.pressurization")}>
+                {t("serviceOptions.pressurization")}
+              </option>
+              <option value={t("serviceOptions.cfd")}>
+                {t("serviceOptions.cfd")}
               </option>
             </select>
           </div>

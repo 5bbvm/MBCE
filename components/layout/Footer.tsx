@@ -29,12 +29,13 @@ export function Footer() {
   ];
 
   const serviceLinks = [
-    { href: "/services", label: tServices("fls.title") },
-    { href: "/services", label: tServices("civilDefense.title") },
-    { href: "/services", label: tServices("buildingCode.title") },
-    { href: "/services", label: tServices("valueEngineering.title") },
-    { href: "/services", label: tServices("testingCommissioning.title") },
-    { href: "/services", label: tServices("mep.title") },
+    { href: "/services", label: tServices("fireProtection.title") },
+    { href: "/services", label: tServices("fireAlarm.title") },
+    { href: "/services", label: tServices("lifeSafety.title") },
+    { href: "/services", label: tServices("smokeControl.title") },
+    { href: "/services", label: tServices("ventilation.title") },
+    { href: "/services", label: tServices("pressurization.title") },
+    { href: "/services", label: tServices("cfd.title") },
   ];
 
   return (

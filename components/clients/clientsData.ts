@@ -25,6 +25,5 @@ export const CLIENT_BRANDS: ClientBrand[] = [
   { name: "Bin Dawood Holding", logo: "/assets/clients/bin-dawood.jpg", category: "commercial" },
   { name: "Darco Real Estate", logo: "/assets/clients/darco.webp", category: "commercial" },
   { name: "Kudu", logo: "/assets/clients/kudu.jpg", category: "commercial" },
-  { name: "Kenya Airways", logo: "/assets/clients/kenya.png", category: "aviation" },
   { name: "FBS", logo: "/assets/clients/fbs.png", category: "financial" },
 ];

@@ -23,6 +23,7 @@
     "viewProject": "View Project Details",
     "viewAllProjects": "Explore Landmark Projects",
     "allServices": "View All Engineering Services",
+    "exploreScope": "Explore Technical Scope",
     "learnMore": "Learn More",
     "getInTouch": "Get in Touch",
     "accreditations": "Accreditations & Codes",
@@ -73,68 +74,93 @@
     "codesSubtitle": "Every blueprint, calculation, and hydraulic simulation engineered by MBEC complies rigorously with international and national safety mandates:"
   },
   "Services": {
-    "badge": "Disciplines & Technical Capabilities",
-    "title": "Premier Fire & Life Safety Engineering Services",
-    "subtitle": "Authoritative engineering consultancy across the complete project lifecycle — from code reviews to final Civil Defense licensing.",
+    "badge": "Fire & Life Safety Systems",
+    "title": "Specialized Engineering Disciplines",
+    "subtitle": "Comprehensive technical engineering across core fire protection, detection, architectural life safety, smoke control, ventilation, pressurization, and computational fluid dynamics.",
+    "scopeNote": "Note: The final scope for each system shall be defined based on the project type, design stage, available drawings, client requirements, and the applicable codes and authority requirements.",
+    "disciplineTag": "MBEC Core Discipline",
+    "engineeringScope": "Engineering Scope & Compliance",
+    "complianceBadge": "SBC & NFPA Compliant",
+    "inquireButton": "Inquire for Project",
+    "ctaTitle": "Need a Comprehensive Code Compliance Review?",
+    "ctaSubtitle": "Our certified engineering consultants review architectural blueprints, hydraulic calculations, and Salamah licensing submissions to eliminate delays.",
+    "ctaButton": "Schedule an Engineering Consultation",
     "items": {
-      "fls": {
-        "title": "Fire & Life Safety (FLS) Engineering",
-        "description": "Comprehensive egress modeling, compartmentation analysis, fire hazard classification, and active/passive life safety system design in compliance with SBC and NFPA.",
+      "fireProtection": {
+        "title": "Fire Protection System",
+        "number": "01",
+        "description": "Design and review of fire protection systems, including automatic sprinkler networks, fire hose reels and cabinets, portable fire extinguishers, foam or clean-agent systems where required, fire pumps and water storage tanks, hydraulic calculations, drawings, and bills of quantities, in accordance with applicable codes and authority requirements.",
         "points": [
-          "Hydraulic calculations & pipe sizing",
-          "Fire sprinkler & suppression systems",
-          "Smoke management & atrium ventilation design",
-          "Egress capacity & evacuation calculations"
+          "Automatic sprinkler networks & pipe sizing",
+          "Fire hose reels, cabinets & portable extinguishers",
+          "Specialized foam & clean-agent gaseous suppression",
+          "Fire pumps, water storage tanks & hydraulic calculations"
         ]
       },
-      "civilDefense": {
-        "title": "Civil Defense Approvals & Licensing",
-        "description": "Accredited engineering representation and streamlined processing through the official Saudi Civil Defense Salamah portal for commercial, industrial, and high-rise structures.",
+      "fireAlarm": {
+        "title": "Fire Detection and Alarm System",
+        "number": "02",
+        "description": "Design and review of fire detection and alarm systems, including fire alarm control panels, smoke, heat, flame, and gas detectors where required, manual call points, audible and visual notification appliances, monitoring and control modules, system zoning, cause-and-effect matrix, and interfaces with fire protection and related electromechanical systems.",
         "points": [
-          "Salamah licensing submission & management",
-          "Authority negotiations & technical clearances",
-          "Third-party compliance certification",
-          "Occupancy certificate acquisition"
+          "Fire alarm control panels & intelligent detector networks",
+          "Manual call points, audible & visual notification appliances",
+          "System zoning & comprehensive cause-and-effect matrix",
+          "Interfaces with fire protection & electromechanical systems"
         ]
       },
-      "buildingCode": {
-        "title": "Saudi Building Code (SBC) Compliance",
-        "description": "Rigorous auditing against SBC 201 (General Building Requirements) and SBC 801 (Fire Code), identifying variances early to eliminate expensive rework.",
+      "lifeSafety": {
+        "title": "Architectural Life Safety and Means of Egress",
+        "number": "03",
+        "description": "Review and design of architectural life-safety and means-of-egress requirements, including occupancy classification, occupant load, number and capacity of exits, travel distances, corridors, doors and escape stairs, emergency exits, fire-rated compartments and barriers, fire-resistance ratings, exit signage, safe accessibility provisions, and overall compliance of architectural drawings with applicable codes.",
         "points": [
-          "Architectural plan code reviews",
-          "Structural fire resistance ratings",
-          "Dangerous goods & hazardous materials auditing",
-          "NFPA/IFC cross-standard alignment"
+          "Occupancy classification & occupant load calculations",
+          "Number & capacity of exits, corridors & escape stairs",
+          "Fire-rated compartments, barriers & fire-resistance ratings",
+          "Exit signage, safe accessibility & architectural code compliance"
         ]
       },
-      "valueEngineering": {
-        "title": "Value Engineering",
-        "description": "Strategic optimization of fire protection architecture and mechanical systems to minimize capital expenditure without compromising safety or regulatory compliance.",
+      "smokeControl": {
+        "title": "Smoke Control and Smoke Exhaust System",
+        "number": "04",
+        "description": "Design and review of smoke-control and smoke-exhaust systems to remove smoke and heat and maintain tenable conditions during a fire, including smoke zones, exhaust rates, smoke-exhaust fans, ductwork, fire and smoke dampers, exhaust openings, make-up air provisions, control panels, sequence of operation, and interface with the fire alarm system.",
         "points": [
-          "Suppression system rationalization",
-          "Cost-effective equipment specifications",
-          "Material life-cycle assessment",
-          "Operational efficiency modeling"
+          "Smoke zone demarcation & volumetric exhaust rate calculation",
+          "Smoke-exhaust fans, specialized ductwork & openings",
+          "Motorized fire and smoke dampers & make-up air provisions",
+          "Control panels, sequence of operation & fire alarm interface"
         ]
       },
-      "testingCommissioning": {
-        "title": "Testing & Commissioning",
-        "description": "On-site performance verification, fire pump flow testing, integrated fire alarm cause-and-effect matrix validation, and final handover audits.",
+      "ventilation": {
+        "title": "Mechanical Ventilation System",
+        "number": "05",
+        "description": "Design and review of mechanical ventilation systems to provide the required air-change and fresh-air rates for occupied spaces, car parks, basements, technical rooms, and toilets, including airflow calculations, selection of fans, ductwork and air terminals, and verification of indoor air quality, operational performance, and applicable safety requirements.",
         "points": [
-          "Fire pump performance & hydrostatic testing",
-          "Smoke control differential pressure testing",
-          "Fire alarm & voice evacuation certification",
-          "As-built verification and compliance sign-off"
+          "Air-change and fresh-air rates for occupied spaces & car parks",
+          "Basement, technical room & sanitary facility ventilation",
+          "Airflow calculations, fan selection, ductwork & air terminals",
+          "Indoor air quality verification & operational safety compliance"
         ]
       },
-      "mep": {
-        "title": "Mechanical & Plumbing (MEP) Engineering",
-        "description": "Integrated mechanical engineering, cold and hot water supply networks, industrial drainage, and specialized hazard suppression infrastructure.",
+      "pressurization": {
+        "title": "Stairwell and Escape Route Pressurization System",
+        "number": "06",
+        "description": "Design and review of stairwell, corridor, or lobby pressurization systems to prevent smoke infiltration during a fire, including pressure differential and airflow-velocity calculations, leakage assessment, pressurization fan selection, pressure-relief provisions and ductwork, verification of acceptable door-opening forces, and integration with the fire alarm and emergency power systems.",
         "points": [
-          "Fire water reservoir & pump room design",
-          "HVAC integration with life safety systems",
-          "Special hazard gaseous suppression (FM-200, Novec)",
-          "Kitchen hood & foam systems"
+          "Pressure differential & airflow-velocity engineering calculations",
+          "Leakage assessment, pressurization fan selection & ductwork",
+          "Pressure-relief provisions & door-opening force verification",
+          "Integration with fire alarm & emergency power systems"
+        ]
+      },
+      "cfd": {
+        "title": "Computational Fluid Dynamics (CFD) Analysis",
+        "number": "07",
+        "description": "Development of Computational Fluid Dynamics (CFD) models to simulate smoke, heat, and airflow under selected fire scenarios; assess smoke-control, smoke-exhaust, and ventilation performance; evaluate temperatures, visibility, gas concentrations, smoke-layer height, and air velocities; and compare required safe egress time with available safe egress time to verify compliance with the adopted performance and life-safety criteria.",
+        "points": [
+          "3D computerized simulation of smoke, heat & airflow scenarios",
+          "Temperature evaluation, visibility levels & gas concentrations",
+          "Smoke-layer height descent & air velocity verification",
+          "Required Safe Egress Time vs Available Safe Egress Time (RSET/ASET)"
         ]
       }
     }
@@ -260,12 +286,13 @@
       "serviceType": "Engineering Service Required",
       "serviceOptions": {
         "select": "Select primary service discipline...",
-        "fls": "Fire & Life Safety (FLS) Design",
-        "civilDefense": "Civil Defense Approvals & Salamah Portal",
-        "buildingCode": "Saudi Building Code (SBC) Compliance Audit",
-        "valueEngineering": "Value Engineering & Cost Optimization",
-        "testingCommissioning": "Testing, Commissioning & Final Handover",
-        "mep": "Mechanical & Plumbing (MEP) Engineering"
+        "fireProtection": "Fire Protection System",
+        "fireAlarm": "Fire Detection and Alarm System",
+        "lifeSafety": "Architectural Life Safety and Means of Egress",
+        "smokeControl": "Smoke Control and Smoke Exhaust System",
+        "ventilation": "Mechanical Ventilation System",
+        "pressurization": "Stairwell and Escape Route Pressurization System",
+        "cfd": "Computational Fluid Dynamics (CFD) Analysis"
       },
       "location": "Project Location (City / Region)",
       "locationPlaceholder": "e.g. Jeddah, Riyadh, Makkah, Abha",
