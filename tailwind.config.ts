@@ -77,17 +77,17 @@ const config: Config = {
         "2/1": "2 / 1",
       },
       animation: {
-        marquee: "marquee 35s linear infinite",
-        "marquee-reverse": "marquee-reverse 35s linear infinite",
+        marquee: "marquee 46s linear infinite",
+        "marquee-reverse": "marquee-reverse 46s linear infinite",
       },
       keyframes: {
         marquee: {
-          "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-50%)" },
+          "0%": { transform: "translateX(calc(100cqw - 260px))" },
+          "100%": { transform: "translateX(calc(100cqw - 260px - 50%))" },
         },
         "marquee-reverse": {
-          "0%": { transform: "translateX(-50%)" },
-          "100%": { transform: "translateX(0%)" },
+          "0%": { transform: "translateX(calc(100cqw - 260px - 50%))" },
+          "100%": { transform: "translateX(calc(100cqw - 260px))" },
         },
       },
     },

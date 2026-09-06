@@ -32,10 +32,10 @@ export function BrandLogo({
       <Image
         src={src}
         alt="Modern Building For Engineering Consultancy (MBEC)"
-        width={160}
-        height={50}
+        width={200}
+        height={65}
         priority={priority}
-        className={cn("h-11 w-auto object-contain select-none", imageClassName)}
+        className={cn("h-14 w-auto object-contain select-none", imageClassName)}
       />
     );
   } else if (variant === "light") {
@@ -48,10 +48,10 @@ export function BrandLogo({
       <Image
         src={src}
         alt="Modern Building For Engineering Consultancy (MBEC)"
-        width={160}
-        height={50}
+        width={200}
+        height={65}
         priority={priority}
-        className={cn("h-11 w-auto object-contain select-none", imageClassName)}
+        className={cn("h-14 w-auto object-contain select-none", imageClassName)}
       />
     );
   } else {
@@ -62,19 +62,19 @@ export function BrandLogo({
         <Image
           src="/assets/brand/mbce-logo-light.svg"
           alt="Modern Building For Engineering Consultancy (MBEC)"
-          width={160}
-          height={50}
+          width={200}
+          height={65}
           priority={priority}
-          className={cn("h-11 w-auto object-contain select-none dark:hidden", imageClassName)}
+          className={cn("h-14 w-auto object-contain select-none dark:hidden", imageClassName)}
         />
         {/* Dark theme logo: white text on dark canvas */}
         <Image
           src="/assets/brand/mbce-logo-dark.svg"
           alt="Modern Building For Engineering Consultancy (MBEC)"
-          width={160}
-          height={50}
+          width={200}
+          height={65}
           priority={priority}
-          className={cn("h-11 w-auto object-contain select-none hidden dark:block", imageClassName)}
+          className={cn("h-14 w-auto object-contain select-none hidden dark:block", imageClassName)}
         />
       </>
     );

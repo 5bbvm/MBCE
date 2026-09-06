@@ -39,7 +39,7 @@ function ClientsContent() {
         </div>
 
         {/* Continuous Dynamic Marquee - True Color */}
-        <div className="rounded-2xl border border-slate-200/80 bg-white/90 p-6 overflow-hidden shadow-card dark:border-white/10 dark:bg-brand-carbon-card">
+        <div className="overflow-hidden py-2">
           <ClientMarquee />
         </div>
 

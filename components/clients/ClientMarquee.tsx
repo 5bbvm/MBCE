@@ -18,28 +18,31 @@ export function ClientMarquee({ className, reverse = false }: ClientMarqueeProps
     <div
       dir="ltr"
       className={cn(
-        "relative w-full overflow-hidden py-4 select-none [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]",
+        "relative w-full overflow-hidden py-4 select-none [container-type:inline-size] [mask-image:linear-gradient(to_right,transparent,black_4%,black_96%,transparent)]",
         className
       )}
     >
       <div
         className={cn(
-          "flex w-max items-center gap-6 sm:gap-8 will-change-transform hover:[animation-play-state:paused]",
+          "flex w-max items-center gap-8 sm:gap-12 md:gap-14 will-change-transform hover:[animation-play-state:paused]",
           reverse ? "animate-marquee-reverse" : "animate-marquee"
         )}
       >
         {brands.map((client, idx) => (
           <div
             key={`${client.name}-${idx}`}
-            className="group relative flex h-20 w-36 sm:h-24 sm:w-44 shrink-0 items-center justify-center rounded-xl border border-slate-200/80 bg-white/95 px-6 py-4 shadow-sm backdrop-blur-sm transition-all duration-300 hover:border-brand-orange/50 hover:shadow-md dark:border-white/10 dark:bg-brand-carbon-elevated/60 dark:hover:border-brand-orange/40 dark:hover:bg-brand-carbon-elevated"
+            className="group relative flex shrink-0 items-center justify-center transition-all duration-300"
           >
-            <div className="relative h-12 w-full max-w-[120px]">
+            <div className="relative h-20 sm:h-24 md:h-28 w-48 sm:w-60 md:w-64 flex items-center justify-center">
               <Image
                 src={client.logo}
                 alt={client.name}
                 fill
-                sizes="160px"
-                className="object-contain transition-transform duration-300 group-hover:scale-105"
+                sizes="(max-width: 640px) 200px, 280px"
+                className="object-contain transition-transform duration-300 group-hover:scale-110"
+                loading="eager"
+                priority={idx < 16}
+                unoptimized
               />
             </div>
           </div>

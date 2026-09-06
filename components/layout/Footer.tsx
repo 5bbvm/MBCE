@@ -121,13 +121,23 @@ export function Footer() {
 
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-brand-orange shrink-0" />
-                <a
-                  href={`tel:${tCommon("phone").replace(/\s+/g, "")}`}
-                  dir="ltr"
-                  className="hover:text-brand-orange transition-colors font-mono"
-                >
-                  {tCommon("phone")}
-                </a>
+                <div className="flex flex-wrap items-center gap-x-2 font-mono text-sm">
+                  <a
+                    href={`tel:${tCommon("phone").replace(/\s+/g, "")}`}
+                    dir="ltr"
+                    className="hover:text-brand-orange transition-colors"
+                  >
+                    {tCommon("phone")}
+                  </a>
+                  <span className="text-neutral-500 font-sans">/</span>
+                  <a
+                    href={`tel:${tCommon("phone2").replace(/\s+/g, "")}`}
+                    dir="ltr"
+                    className="hover:text-brand-orange transition-colors"
+                  >
+                    {tCommon("phone2")}
+                  </a>
+                </div>
               </div>
 
               <div className="flex items-center gap-3">

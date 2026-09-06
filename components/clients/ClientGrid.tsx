@@ -45,19 +45,19 @@ export function ClientGrid() {
       </div>
 
       {/* Standardized Grid - Authentic Persistent Full Color */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-10 items-center justify-items-center">
         {filteredBrands.map((client) => (
           <div
             key={client.name}
-            className="group relative flex aspect-[16/10] items-center justify-center rounded-xl border border-slate-200/80 bg-white p-5 shadow-sm transition-all duration-300 hover:border-brand-orange/50 hover:shadow-md dark:border-white/10 dark:bg-brand-carbon-card dark:hover:bg-brand-carbon-elevated dark:hover:border-brand-orange/50"
+            className="group relative flex h-28 sm:h-36 w-full items-center justify-center p-2 transition-all duration-300"
           >
-            <div className="relative h-12 w-full max-w-[130px]">
+            <div className="relative h-24 sm:h-28 md:h-32 w-full max-w-[95%] flex items-center justify-center">
               <Image
                 src={client.logo}
                 alt={client.name}
                 fill
-                sizes="(max-width: 640px) 140px, 200px"
-                className="object-contain transition-transform duration-300 group-hover:scale-105"
+                sizes="(max-width: 640px) 200px, 300px"
+                className="object-contain transition-transform duration-300 group-hover:scale-110"
               />
             </div>
             <span className="sr-only">{client.name}</span>

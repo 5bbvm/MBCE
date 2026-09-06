@@ -129,13 +129,23 @@ function ContactContent() {
                     <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-500 dark:text-neutral-400">
                       {tDetails("phoneTitle")}
                     </h4>
-                    <a
-                      href={`tel:${tCommon("phone").replace(/\s+/g, "")}`}
-                      dir="ltr"
-                      className="text-brand-charcoal dark:text-white font-mono font-medium hover:text-brand-orange transition-colors inline-block mt-0.5"
-                    >
-                      {tCommon("phone")}
-                    </a>
+                    <div className="flex flex-wrap items-center gap-x-2 font-mono text-sm font-medium mt-0.5">
+                      <a
+                        href={`tel:${tCommon("phone").replace(/\s+/g, "")}`}
+                        dir="ltr"
+                        className="text-brand-charcoal dark:text-white hover:text-brand-orange transition-colors inline-block"
+                      >
+                        {tCommon("phone")}
+                      </a>
+                      <span className="text-slate-400 dark:text-neutral-500 font-sans">/</span>
+                      <a
+                        href={`tel:${tCommon("phone2").replace(/\s+/g, "")}`}
+                        dir="ltr"
+                        className="text-brand-charcoal dark:text-white hover:text-brand-orange transition-colors inline-block"
+                      >
+                        {tCommon("phone2")}
+                      </a>
+                    </div>
                   </div>
                 </div>
 

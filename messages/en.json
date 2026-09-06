@@ -16,7 +16,8 @@
     "tagline": "Premier Fire & Life Safety and Engineering Consultancy in Saudi Arabia",
     "headquarters": "Jeddah, Kingdom of Saudi Arabia (Head Office)",
     "branchesSummary": "Branches: Jeddah (Head Office) • Riyadh • Makkah • Abha",
-    "phone": "+966 565992687",
+    "phone": "+966 56 599 2687",
+    "phone2": "+966 54 609 8762",
     "email": "info@modernbuildingceo.com.sa",
     "directorEmail": "mmaayah@modernbuildingceo.com.sa",
     "viewProject": "View Project Details",
@@ -79,32 +80,62 @@
       "fls": {
         "title": "Fire & Life Safety (FLS) Engineering",
         "description": "Comprehensive egress modeling, compartmentation analysis, fire hazard classification, and active/passive life safety system design in compliance with SBC and NFPA.",
-        "points": ["Hydraulic calculations & pipe sizing", "Fire sprinkler & suppression systems", "Smoke management & atrium ventilation design", "Egress capacity & evacuation calculations"]
+        "points": [
+          "Hydraulic calculations & pipe sizing",
+          "Fire sprinkler & suppression systems",
+          "Smoke management & atrium ventilation design",
+          "Egress capacity & evacuation calculations"
+        ]
       },
       "civilDefense": {
         "title": "Civil Defense Approvals & Licensing",
         "description": "Accredited engineering representation and streamlined processing through the official Saudi Civil Defense Salamah portal for commercial, industrial, and high-rise structures.",
-        "points": ["Salamah licensing submission & management", "Authority negotiations & technical clearances", "Third-party compliance certification", "Occupancy certificate acquisition"]
+        "points": [
+          "Salamah licensing submission & management",
+          "Authority negotiations & technical clearances",
+          "Third-party compliance certification",
+          "Occupancy certificate acquisition"
+        ]
       },
       "buildingCode": {
         "title": "Saudi Building Code (SBC) Compliance",
         "description": "Rigorous auditing against SBC 201 (General Building Requirements) and SBC 801 (Fire Code), identifying variances early to eliminate expensive rework.",
-        "points": ["Architectural plan code reviews", "Structural fire resistance ratings", "Dangerous goods & hazardous materials auditing", "NFPA/IFC cross-standard alignment"]
+        "points": [
+          "Architectural plan code reviews",
+          "Structural fire resistance ratings",
+          "Dangerous goods & hazardous materials auditing",
+          "NFPA/IFC cross-standard alignment"
+        ]
       },
       "valueEngineering": {
         "title": "Value Engineering",
         "description": "Strategic optimization of fire protection architecture and mechanical systems to minimize capital expenditure without compromising safety or regulatory compliance.",
-        "points": ["Suppression system rationalization", "Cost-effective equipment specifications", "Material life-cycle assessment", "Operational efficiency modeling"]
+        "points": [
+          "Suppression system rationalization",
+          "Cost-effective equipment specifications",
+          "Material life-cycle assessment",
+          "Operational efficiency modeling"
+        ]
       },
       "testingCommissioning": {
         "title": "Testing & Commissioning",
         "description": "On-site performance verification, fire pump flow testing, integrated fire alarm cause-and-effect matrix validation, and final handover audits.",
-        "points": ["Fire pump performance & hydrostatic testing", "Smoke control differential pressure testing", "Fire alarm & voice evacuation certification", "As-built verification and compliance sign-off"]
+        "points": [
+          "Fire pump performance & hydrostatic testing",
+          "Smoke control differential pressure testing",
+          "Fire alarm & voice evacuation certification",
+          "As-built verification and compliance sign-off"
+        ]
       },
       "mep": {
         "title": "Mechanical & Plumbing (MEP) Engineering",
         "description": "Integrated mechanical engineering, cold and hot water supply networks, industrial drainage, and specialized hazard suppression infrastructure.",
-        "points": ["Fire water reservoir & pump room design", "HVAC integration with life safety systems", "Special hazard gaseous suppression (FM-200, Novec)", "Kitchen hood & foam systems"]
+        "points": [
+          "Fire water reservoir & pump room design",
+          "HVAC integration with life safety systems",
+          "Special hazard gaseous suppression (FM-200, Novec)",
+          "Kitchen hood & foam systems"
+        ]
       }
     }
   },
@@ -183,7 +214,7 @@
       },
       "mohammad": {
         "name": "Eng. Mohammad Yousef AlMaayah",
-        "role": "Executive Director & Head of Jeddah Branch (Head Office)",
+        "role": "Executive Director",
         "credentials": "B.Sc Fire & Safety Eng • PMP (#4180955) • NFPA 25 & NFPA 101 Certified",
         "bio": "Fire & Life Safety specialist with 8+ years leading SBC & Civil Defense compliance across major KSA landmarks including Sindalah Island NEOM, Jeddah Courts Complex, and KAFD."
       },
