@@ -77,8 +77,8 @@ const config: Config = {
         "2/1": "2 / 1",
       },
       animation: {
-        marquee: "marquee 60s linear infinite",
-        "marquee-reverse": "marquee-reverse 60s linear infinite",
+        marquee: "marquee 72s linear infinite",
+        "marquee-reverse": "marquee-reverse 72s linear infinite",
       },
       keyframes: {
         marquee: {

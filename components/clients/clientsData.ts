@@ -24,6 +24,9 @@ export const CLIENT_BRANDS: ClientBrand[] = [
   { name: "Aramex", logo: "/assets/clients/aramex_BIG.png", category: "owners" },
   { name: "ALBAIK", logo: "/assets/clients/Albaik.png", category: "owners" },
   { name: "Sports Dome", logo: "/assets/clients/sports dome.png", category: "owners" },
+  { name: "Orange Telecom", logo: "/assets/clients/orange.png", category: "owners" },
+  { name: "Abdul Latif Jameel", logo: "/assets/clients/jameel.png", category: "owners" },
+  { name: "FBS", logo: "/assets/clients/fbs.png", category: "owners" },
 
   // ==========================================
   // 2. Contractors (مقاولين)
@@ -43,6 +46,9 @@ export const CLIENT_BRANDS: ClientBrand[] = [
   // ==========================================
   { name: "Darco Real Estate", logo: "/assets/clients/darco.webp", category: "developers" },
   { name: "Mohammad Al Habib", logo: "/assets/clients/alhabib.jpg", category: "developers" },
+  { name: "JLL", logo: "/assets/clients/JLL.webp", category: "developers" },
   { name: "Al Awaly", logo: "/assets/clients/alawaly.png", category: "developers" },
   { name: "Osus Real Estate", logo: "/assets/clients/osus.png", category: "developers" },
+  { name: "National Housing Company (NHC)", logo: "/assets/clients/nhc.webp", category: "developers" },
+  { name: "Tatweer Buildings Company (TBC)", logo: "/assets/clients/tbc.png", category: "developers" },
 ];
