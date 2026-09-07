@@ -47,10 +47,10 @@ function ClientsContent() {
         <div className="space-y-6">
           <div className="border-b border-slate-200/80 dark:border-white/10 pb-4">
             <h2 className="text-xl sm:text-2xl font-bold text-brand-charcoal dark:text-white">
-              Strategic Partners &amp; Client Registry
+              {t("registryTitle")}
             </h2>
             <p className="text-xs sm:text-sm text-brand-slate dark:text-neutral-400 mt-1">
-              Filter by industry sector to explore MBEC&apos;s Fire &amp; Life Safety track record.
+              {t("registrySubtitle")}
             </p>
           </div>
 

@@ -262,11 +262,13 @@
     "badge": "Client Partnerships",
     "title": "Trusted by Public Authorities & Corporate Giants",
     "subtitle": "MBEC is privileged to engineer safety and regulatory compliance for Saudi Arabia's most prestigious entities.",
+    "registryTitle": "Strategic Partners & Client Registry",
+    "registrySubtitle": "Classified by project owners, contracting firms, and real estate developers.",
     "sectors": {
-      "giga": "Giga-Projects & Master Developers",
-      "aviation": "Aviation, Government & Logistics",
-      "financial": "Banking & Financial Institutions",
-      "commercial": "Retail, Hospitality & Industry"
+      "all": "All Clients",
+      "owners": "Project Owners",
+      "contractors": "Contractors",
+      "developers": "Real Estate Developers"
     }
   },
   "Contact": {
