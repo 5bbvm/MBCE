@@ -15,6 +15,12 @@ export const PROJECTS_CATALOG: ProjectMeta[] = [
     featured: true,
   },
   {
+    key: "sindalahIsland",
+    imageSrc: "/assets/projects/sindalah-island.jpg",
+    focalAnchor: "center",
+    featured: true,
+  },
+  {
     key: "salmanPark",
     imageSrc: "/assets/projects/KING SALMAN PARK.png",
     focalAnchor: "center",
